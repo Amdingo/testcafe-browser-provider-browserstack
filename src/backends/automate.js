@@ -118,7 +118,6 @@ export default class AutomateBackend extends BaseBackend {
         capabilities = {
             'browserstack.localIdentifier': localIdentifier,
             'browserstack.local':           local,
-            'browserstack.networkLogs:      true,
             ...restCapabilities
         };
 
