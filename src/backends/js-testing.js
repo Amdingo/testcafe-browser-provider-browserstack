@@ -75,7 +75,8 @@ export default class JSTestingBackend extends BaseBackend {
         var { local, ...restCapabilities } = capabilities;
 
         capabilities = {
-            'browserstack.local': local,
+            'browserstack.local':           local,
+            'browserstack.networkLogs':     true,
 
             timeout: TESTS_TIMEOUT,
             url:     pageUrl,
