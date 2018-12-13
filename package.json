@@ -1,8 +1,8 @@
 {
-  "name": "testcafe-browser-provider-browserstack",
+  "name": "testcafe-browser-provider-browserstack-network-logging",
   "version": "1.5.1",
   "description": "browserstack TestCafe browser provider plugin.",
-  "repository": "https://github.com/DevExpress/testcafe-browser-provider-browserstack",
+  "repository": "https://github.com/Amdingo/testcafe-browser-provider-browserstack",
   "engines": {
     "node": ">=6.0.0"
   },
